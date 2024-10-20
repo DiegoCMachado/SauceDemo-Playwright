@@ -6,6 +6,9 @@ This repository contains an automated test suite for an e-commerce web applicati
 * Page Object Model (POM): Enhances test maintenance and readability.
 * Asynchronous JavaScript: Uses async/await for handling asynchronous operations.
 * Data-Driven Testing: External JSON files for test data management.
+* Running tests in Chromim, Firefox and Safari
+* Tests running in parallell
+* Detailed reports including screenshots of failures
 
 **Technologies**
 * Javascript
