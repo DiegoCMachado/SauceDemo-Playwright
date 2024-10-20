@@ -16,7 +16,7 @@ This repository contains an automated test suite for an e-commerce web applicati
 **Getting Started**
 **Installation**
 Clone the repository
-* git clone XXXXXXXXXXXXXXXXXXXXXX
+* git clone https://github.com/DiegoCMachado/SauceDemo-Playwright.git
 
 **Run**:
 * npm install
