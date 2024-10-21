@@ -1,31 +1,31 @@
-SauceDemo Testing with Playwright
-This repository contains an automated test suite for an e-commerce web application using the Playwright testing framework.
+# SauceDemo Testing with Playwright
+This repository contains an automated test suite for an e-commerce web application using the Playwright testing framework. 
+* Application in test: https://www.saucedemo.com/
 
-Application in test: https://www.saucedemo.com/
-Features
+**Features**
+* Page Object Model (POM): Enhances test maintenance and readability.
+* Asynchronous JavaScript: Uses async/await for handling asynchronous operations.
+* Data-Driven Testing: External JSON files for test data management.
+* Running tests in Chromim, Firefox and Safari
+* Tests running in parallell
+* Detailed reports including screenshots of failures
 
-Page Object Model (POM): Enhances test maintenance and readability.
-Asynchronous JavaScript: Uses async/await for handling asynchronous operations.
-Data-Driven Testing: External JSON files for test data management.
-Running tests in Chromim, Firefox and Safari
-Tests running in parallell
-Detailed reports including screenshots of failures
-Technologies
+**Technologies**
+* Javascript
+* VSCdode
+* Playwright
+* Faker
 
-Javascript
-VSCdode
-Playwright
-Faker
-Getting Started Installation
+**Getting Started**
+**Installation**
+* Clone the repository:
+* git clone https://github.com/DiegoCMachado/SauceDemo-Playwright.git
 
-Clone the repository:
-git clone https://github.com/DiegoCMachado/SauceDemo-Playwright.git
-Run:
+**Run**:
+* npm install
 
-npm install
-Running the Tests - Headless mode
+**Running the Tests - Headless mode**
+* npx playwright test
 
-npx playwright test
-Running the Tests - Headed mode
-
-npx playwright test --Headed
+**Running the Tests - Headed mode**
+* npx playwright test --Headed
